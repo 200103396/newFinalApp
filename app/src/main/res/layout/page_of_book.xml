@@ -8,11 +8,13 @@
 
     <ImageView
         android:id="@+id/nextPage"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="52dp"
+        android:layout_height="53dp"
         android:src="@drawable/ic_baseline_arrow_forward_24"
-        tools:layout_editor_absoluteX="331dp"
-        tools:layout_editor_absoluteY="667dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -61,7 +63,7 @@
         app:layout_constraintVertical_bias="0.447" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/whatSelect"
         android:layout_width="45dp"
         android:layout_height="40dp"
         app:layout_constraintEnd_toEndOf="parent"
