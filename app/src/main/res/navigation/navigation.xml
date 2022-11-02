@@ -45,5 +45,14 @@
         android:id="@+id/books_Fragment"
         android:name="com.example.newfinal.Books_Fragment"
         android:label="cards_element"
-        tools:layout="@layout/cards_element" />
+        tools:layout="@layout/cards_element" >
+        <action
+            android:id="@+id/action_books_Fragment_to_pageFragment"
+            app:destination="@id/pageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pageFragment"
+        android:name="com.example.newfinal.PageFragment"
+        android:label="page_of_book"
+        tools:layout="@layout/page_of_book" />
 </navigation>
