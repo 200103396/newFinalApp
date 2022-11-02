@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/photo_5391288235977719248_y"
-    tools:context="Options_fragment">
+    tools:context="com.example.newfinal.Options_fragment">
 
 
     <ImageView
@@ -16,8 +16,10 @@
         android:layout_alignParentEnd="true"
         app:layout_constraintBottom_toTopOf="@+id/gridLayout"
         app:layout_constraintEnd_toStartOf="@+id/name_user"
+        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -39,12 +41,15 @@
         android:layout_width="358dp"
         android:layout_height="524dp"
         android:layout_below="@id/avatar_user"
+        android:layout_marginBottom="24dp"
         android:columnCount="2"
         android:rowCount="3"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="167dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/po_genre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="0"
@@ -56,6 +61,7 @@
             app:cardElevation="8dp">
 
             <LinearLayout
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical|center_horizontal"
@@ -63,6 +69,7 @@
                 android:orientation="vertical">
 
                 <ImageView
+
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:src="@drawable/i" />

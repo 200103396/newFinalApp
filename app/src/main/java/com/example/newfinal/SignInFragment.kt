@@ -18,5 +18,8 @@ class SignInFragment: Fragment(R.layout.sign_in) {
         binding.signInButton.setOnClickListener {
             findNavController().navigate(R.id.action_signInFragment_to_options_fragment2)
         }
+        binding.signUpInsideIn.setOnClickListener {
+            findNavController().navigate(R.id.action_signInFragment_to_sign_Up2)
+        }
     }
 }

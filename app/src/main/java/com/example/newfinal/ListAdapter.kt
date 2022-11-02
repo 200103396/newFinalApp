@@ -1,6 +1,5 @@
 package com.example.newfinal
 
-import android.content.Context
 import android.graphics.Color
 import android.graphics.PorterDuff
 import android.view.LayoutInflater
@@ -11,7 +10,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class ListAdapter(
-    private val context: Context,
+    private val context: Options_fragment,
     private val dataset: List<ListElement>
 ): RecyclerView.Adapter<ListAdapter.ItemViewHolder>() {
     class ItemViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
