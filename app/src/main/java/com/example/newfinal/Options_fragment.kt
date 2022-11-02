@@ -36,5 +36,9 @@ class Options_fragment : Fragment(R.layout.options_genre)  {
             findNavController().navigate(R.id.action_options_fragment2_to_books_Fragment)
         }
 
+        binding.profil.setOnClickListener {
+            findNavController().navigate(R.id.action_options_fragment2_to_personal_fragment)
+        }
+
     }
 }
