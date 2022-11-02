@@ -1,4 +1,6 @@
 package com.example.newfinal
 
-class Personal_fragment {
+import androidx.fragment.app.Fragment
+
+class Personal_fragment: Fragment(R.layout.main_book) {
 }

@@ -1,4 +1,6 @@
 package com.example.newfinal
 
-class Options_fragment {
+import androidx.fragment.app.Fragment
+
+class Options_fragment : Fragment(R.layout.options_genre) {
 }

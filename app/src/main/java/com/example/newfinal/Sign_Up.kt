@@ -1,4 +1,6 @@
 package com.example.newfinal
 
-class Sign_Up {
+import androidx.fragment.app.Fragment
+
+class Sign_Up : Fragment(R.layout.activity_sign_up){
 }
