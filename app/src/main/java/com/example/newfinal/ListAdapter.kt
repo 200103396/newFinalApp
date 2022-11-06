@@ -13,6 +13,7 @@ class ListAdapter(
     private val context: Options_fragment,
     private val dataset: List<ListElement>
 ): RecyclerView.Adapter<ListAdapter.ItemViewHolder>() {
+
     class ItemViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
         val iconImage: ImageView = view.findViewById(R.id.iconImageView)
         val name: TextView = view.findViewById(R.id.nameTextView)
