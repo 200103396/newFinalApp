@@ -10,7 +10,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class ListAdapter(
-    private val context: Options_fragment,
     private val dataset: List<ListElement>
 ): RecyclerView.Adapter<ListAdapter.ItemViewHolder>() {
 
@@ -29,8 +28,7 @@ class ListAdapter(
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
-        val adapterLayout = LayoutInflater.from(parent.context)
-            .inflate(R.layout.list_element, parent, false)
+        val adapterLayout = LayoutInflater.from(parent.context).inflate(R.layout.list_element, parent, false)
 
         return ItemViewHolder(adapterLayout)
     }

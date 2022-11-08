@@ -35,6 +35,9 @@
         <action
             android:id="@+id/action_options_fragment2_to_books_Fragment"
             app:destination="@id/books_Fragment" />
+        <action
+            android:id="@+id/action_options_fragment2_to_recycle_fragment"
+            app:destination="@id/recycle_fragment" />
     </fragment>
     <fragment
         android:id="@+id/personal_fragment"
@@ -52,7 +55,11 @@
     </fragment>
     <fragment
         android:id="@+id/pageFragment"
-        android:name="com.example.newfinal.PageFragment"
+        android:name="com.example.newfinal.PageFragments"
         android:label="page_of_book"
         tools:layout="@layout/page_of_book" />
+    <fragment
+        android:id="@+id/recycle_fragment"
+        android:name="com.example.newfinal.Recycle_fragment"
+        android:label="Recycle_fragment" />
 </navigation>

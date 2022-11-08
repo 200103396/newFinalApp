@@ -33,7 +33,7 @@ class Options_fragment : Fragment(R.layout.options_genre)  {
         super.onViewCreated(view, savedInstanceState)
         binding = OptionsGenreBinding.bind(view)
         binding.poGenre.setOnClickListener{
-            findNavController().navigate(R.id.action_options_fragment2_to_books_Fragment)
+            findNavController().navigate(R.id.action_options_fragment2_to_recycle_fragment)
         }
 
         binding.profil.setOnClickListener {
