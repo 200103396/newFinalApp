@@ -61,5 +61,9 @@
     <fragment
         android:id="@+id/recycle_fragment"
         android:name="com.example.newfinal.Recycle_fragment"
-        android:label="Recycle_fragment" />
+        android:label="Recycle_fragment" >
+        <action
+            android:id="@+id/action_recycle_fragment_to_pageFragment"
+            app:destination="@id/pageFragment" />
+    </fragment>
 </navigation>

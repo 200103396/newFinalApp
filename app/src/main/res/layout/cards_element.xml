@@ -5,7 +5,7 @@
     android:id="@+id/TextView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.newfinal.Books_Fragment">
+    tools:context="com.example.newfinal.Recycle_fragment">
 
 
     <TextView
@@ -13,7 +13,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
         android:text="List"
         android:textColor="@android:color/black"
         android:textSize="34sp"
@@ -30,8 +29,10 @@
         android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/poka4to"
+        app:layout_constraintVertical_bias="0.891" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
